@@ -1,7 +1,30 @@
 aid: spatialedge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spatialedge.png
 name: Spatialedge
-description: Spatialedge is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Spatialedge is an enterprise AI and data solutions firm headquartered in
+  Stellenbosch, South Africa, with offices in London and Austin. The company
+  builds and operationalizes analytical tooling that turns data into
+  data-driven business decisions, spanning consulting and AI maturity
+  assessments, custom solution development (data pipelines, optimization and
+  forecasting models, AI-powered applications), integration and deployment
+  into existing business systems, and ongoing MLOps and model maintenance.
+  Products include Workforce Planner, Price Planner, Demand Forecaster, and
+  DataLlume, applied across retail pricing, telecom infrastructure, and mining
+  predictive maintenance. Spatialedge does not publish a public API, SDK, or
+  developer portal; it is a services and solutions provider surfaced as a
+  Techstars portfolio company and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/spatialedge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +34,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Artificial Intelligence
+- Machine Learning
+- Data
+- Analytics
+- Forecasting
+- Data Science
+- MLOps
+- Consulting
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
+- type: DomainSecurity
+  url: security/spatialedge-domain-security.yml
 - type: Website
-  url: https://spatialedge.co.za/
+  url: https://www.spatialedge.ai/
+- type: PrivacyPolicy
+  url: https://www.spatialedge.ai/privacy-policy
+- type: About
+  url: https://www.spatialedge.ai/products/
+- type: Careers
+  url: https://www.spatialedge.ai/careers
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
