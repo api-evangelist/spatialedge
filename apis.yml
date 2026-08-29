@@ -37,6 +37,9 @@ description: >-
   developer portal; it is a services and solutions provider surfaced as a
   Techstars portfolio company and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/spatialedge/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Spatialedge does not publish a public API, SDK, or developer portal; it is a services and solutions provider surfaced as a Techstars portfolio company and profiled in the API Evangelist network."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
